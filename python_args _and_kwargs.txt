@@ -1,0 +1,15 @@
+*args - is used we do not know the number of values executed in arguments 
+👉 *args lets a function accept any number of values
+All values are stored as a tuple.
+syntax:def function_name(*args):
+    for value in args:
+        print(value)
+
+function_name(1, 2, 3)
+args is a tuple
+def function_name(**kwargs):
+    for key, value in kwargs.items():
+        print(key, value)
+
+function_name(name="Manu", age=22)
+kwargs is a dictionary
